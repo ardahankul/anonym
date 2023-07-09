@@ -33,8 +33,7 @@ public class AuthenticationService {
             String guid = generateGuid(request.getUsername());
 
             var user = AppUser.builder()
-                    .firstName(request.getFirstName())
-                    .lastName(request.getLastName())
+                    .fullName(request.getFullName())
                     .username(request.getUsername())
                     .email(request.getEmail())
                     .password(passwordEncoder.encode(request.getPassword()))
