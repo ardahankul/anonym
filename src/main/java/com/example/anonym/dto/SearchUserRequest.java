@@ -1,4 +1,4 @@
-package com.example.anonym.authenticaion;
+package com.example.anonym.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor 
-public class AuthenticationResponse {
-    private String token;
+@NoArgsConstructor
+public class SearchUserRequest {
+    private String searchParameter;
 }
