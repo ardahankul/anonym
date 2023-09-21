@@ -1,6 +1,6 @@
 package com.example.anonym.dto;
 import java.util.List;
-import com.example.anonym.entity.AppUser;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

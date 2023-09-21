@@ -34,6 +34,9 @@ public class AppUserService {
             responseList.add(responseUser);
         }
         SearchUserResponse response = new SearchUserResponse(responseList);
+        for (UserResponseDTO x : responseList){
+            System.out.println(x.getUsername());
+        }
         return response;
     }
     
